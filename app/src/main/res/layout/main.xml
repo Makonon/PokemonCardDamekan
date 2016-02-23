@@ -1,11 +1,450 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+	<TableRow
+		android:layout_weight="1.0"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
 
-</LinearLayout>
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="ABench5"
+			android:layout_weight="1.0"
+			android:id="@+id/ABench5"
+			android:background="#FFFFFF"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickABench5"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="ABench4"
+			android:layout_weight="1.0"
+			android:id="@+id/ABench4"
+			android:background="#FFFFFF"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickABench4"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="ABench3"
+			android:layout_weight="1.0"
+			android:id="@+id/ABench3"
+			android:background="#FFFFFF"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickABench3"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="ABench2"
+			android:layout_weight="1.0"
+			android:id="@+id/ABench2"
+			android:background="#FFFFFF"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickABench2"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="ABench1"
+			android:layout_weight="1.0"
+			android:id="@+id/ABench1"
+			android:background="#FFFFFF"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickABench1"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="All Clr"
+			android:layout_weight="1.0"
+			android:id="@+id/AllClr"
+			android:background="#FFFF00"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickAllClr"/>
+
+	</TableRow>
+
+	<TableRow
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_weight="1.0">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c10"
+			android:layout_weight="1.0"
+			android:id="@+id/t10"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c11"
+			android:layout_weight="1.0"
+			android:id="@+id/t11"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c12"
+			android:layout_weight="1.0"
+			android:id="@+id/t12"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c13"
+			android:layout_weight="1.0"
+			android:id="@+id/t13"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c14"
+			android:layout_weight="1.0"
+			android:id="@+id/t14"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="Clr"
+			android:layout_weight="1.0"
+			android:id="@+id/Clr"
+			android:background="#FFFF00"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickClr"/>
+
+	</TableRow>
+
+	<TableRow
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_weight="1.0">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c20"
+			android:layout_weight="1.0"
+			android:id="@+id/t20"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c21"
+			android:layout_weight="1.0"
+			android:id="@+id/t21"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="ABattle"
+			android:layout_weight="1.0"
+			android:id="@+id/ABattle"
+			android:background="#FFFFFF"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickABattle"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c23"
+			android:layout_weight="1.0"
+			android:id="@+id/t23"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c24"
+			android:layout_weight="1.0"
+			android:id="@+id/t24"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="Chg"
+			android:layout_weight="1.0"
+			android:id="@+id/Chg"
+			android:background="#FFFF00"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickChg"/>
+
+	</TableRow>
+
+	<TableRow
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_weight="1.0">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c30"
+			android:layout_weight="1.0"
+			android:id="@+id/t30"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c31"
+			android:layout_weight="1.0"
+			android:id="@+id/t31"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c32"
+			android:layout_weight="1.0"
+			android:id="@+id/t32"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c33"
+			android:layout_weight="1.0"
+			android:id="@+id/t33"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c34"
+			android:layout_weight="1.0"
+			android:id="@+id/t34"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="+10"
+			android:layout_weight="1.0"
+			android:id="@+id/P10"
+			android:background="#FFFF00"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickP10"/>
+
+	</TableRow>
+
+	<TableRow
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_weight="1.0">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c40"
+			android:layout_weight="1.0"
+			android:id="@+id/t40"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c41"
+			android:layout_weight="1.0"
+			android:id="@+id/t41"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="BBattle"
+			android:layout_weight="1.0"
+			android:id="@+id/BBattle"
+			android:background="#FFFFFF"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickBBattle"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c43"
+			android:layout_weight="1.0"
+			android:id="@+id/t43"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c44"
+			android:layout_weight="1.0"
+			android:id="@+id/t44"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="-10"
+			android:layout_weight="1.0"
+			android:id="@+id/M10"
+			android:background="#FFFF00"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickM10"/>
+
+	</TableRow>
+
+	<TableRow
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_weight="1.0">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c50"
+			android:layout_weight="1.0"
+			android:id="@+id/t50"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c51"
+			android:layout_weight="1.0"
+			android:id="@+id/t51"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c52"
+			android:layout_weight="1.0"
+			android:id="@+id/t52"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c53"
+			android:layout_weight="1.0"
+			android:id="@+id/t53"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="c54"
+			android:layout_weight="1.0"
+			android:id="@+id/t54"
+			android:visibility="invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="+50"
+			android:layout_weight="1.0"
+			android:id="@+id/P50"
+			android:background="#FFFF00"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickP50"/>
+
+	</TableRow>
+
+	<TableRow
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_weight="1.0">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="BBench1"
+			android:layout_weight="1.0"
+			android:id="@+id/BBench1"
+			android:background="#FFFFFF"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickBBench1"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="BBench2"
+			android:layout_weight="1.0"
+			android:id="@+id/BBench2"
+			android:background="#FFFFFF"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickBBench2"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="BBench3"
+			android:layout_weight="1.0"
+			android:id="@+id/BBench3"
+			android:background="#FFFFFF"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickBBench3"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="BBench4"
+			android:layout_weight="1.0"
+			android:id="@+id/BBench4"
+			android:background="#FFFFFF"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickBBench4"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="BBench5"
+			android:layout_weight="1.0"
+			android:id="@+id/BBench5"
+			android:background="#FFFFFF"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickBBench5"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:text="-50"
+			android:layout_weight="1.0"
+			android:id="@+id/M50"
+			android:background="#FFFF00"
+			android:layout_margin="1dp"
+			android:gravity="center"
+			android:onClick="onClickM50"/>
+
+	</TableRow>
+
+</TableLayout>
+
